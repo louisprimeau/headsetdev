@@ -1,0 +1,6 @@
+Collecting pyqt5
+  Downloading https://files.pythonhosted.org/packages/31/22/e79a35bab2221b7bdbb3cdadb25bc9b492080b7529eec5fcbfd3f2d57606/PyQt5-5.11.3-5.11.2_a-cp35.cp36.cp37.cp38-abi3-macosx_10_6_intel.whl (91.1MB)
+Collecting PyQt5_sip<4.20,>=4.19.11 (from pyqt5)
+  Downloading https://files.pythonhosted.org/packages/ee/03/ca524edbb89e9950db2b939070939781ae3ff7bed2da0f54cbc0be106bf4/PyQt5_sip-4.19.13-cp36-cp36m-macosx_10_6_intel.whl (51kB)
+Installing collected packages: PyQt5-sip, pyqt5
+Successfully installed PyQt5-sip-4.19.13 pyqt5-5.11.3
