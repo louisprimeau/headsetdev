@@ -23,7 +23,7 @@ epochs = mne.Epochs (raw, events, event_id=4, tmin=-0.2, tmax=0.5, proj=True,
 evoked = epochs.average()
 #cov = mne.compute_covariance (epochs, tmax=0)
 evoked.plot()
-'''Graph Filtered Data'''
+'''Graph Raw Data'''
 scalings = {'mag': 1000, 'grad': 1000}
 raw.plot(n_channels=4, scalings=scalings, title='Data from arrays',
          show=True, block=True)
